@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php w(); ?>>
+<html <?php language_attributes(); ?>>
 
 <head>
   <?php get_header(); ?>
@@ -11,7 +11,9 @@
   <?php get_template_part("includes/header"); ?>
   <!-- // header -->
 
-  <main></main>
+  <main>
+    <h1>元気ですか？</h1>
+  </main>
 
   <!-- footer -->
   <?php get_template_part('includes/footer') ?>
