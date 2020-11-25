@@ -7,4 +7,5 @@
 <!-- googlefont -->
 <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.min.css" />
 <?php wp_head(); ?>
